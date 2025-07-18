@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "HearLearn",
+    "slug": "hearlearn",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/IconApp.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/LogoApp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.willianquirino.hearlearn"
+    },
+    "android": {
+      "package": "com.willianquirino.hearlearn",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/IconApp.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/IconApp.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cae75bb8-8087-4576-af83-c0d1a4199104"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-document-picker",
+      "expo-file-system",
+      "expo-font",
+      "expo-asset",
+      "expo-av"
+    ]
+  }
+}
